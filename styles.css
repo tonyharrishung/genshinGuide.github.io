@@ -1,0 +1,93 @@
+*, *::before, *::after {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Gotham Rounded;
+  }
+  
+
+  body {
+    padding: 0;
+    margin: 0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 100vw;
+    height: 100vh;
+    /* background-color: #333; */
+  }
+  
+.bck-btn {
+  width: 100px;
+  height: 50px;
+  opacity: 80%;
+  /* text-decoration: none;
+  text-decoration-line: underline; */
+  position: absolute;
+  top: 0%;
+  font-size: 20px;
+}
+
+.bck-btn:hover{
+  background-color: brown;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+  .container {
+    height: 200px;
+    width: 1500px;
+    /* max-width: 80%; */
+    background-color: white;
+    padding: 10px;
+    left: 10%;
+    /* top: 50%; */
+    bottom: 5%;
+    border-radius: 5px;
+    position: absolute;
+    box-shadow: 0 0 10px 2px;
+    font-size: 30px;
+  }
+
+  .container2{
+    height: 465px;
+    width: 397px;
+    /* max-width: 80%; */
+    background-color: transparent;
+    padding: 10px;
+    right: 15%;
+    top: 25%;
+    bottom: 5%;
+    background-image: url(./images/paimon.gif);
+    border-radius: 5px;
+    position: absolute;
+  }
+  
+  .btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    background-color: hsl(200, 100%, 50%);
+    border: 1px solid hsl(200, 100%, 30%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+    font-size: 25px;
+  }
+  
+  .btn:hover {
+    border-color: black;
+  }
+
+  .chara{
+    width: 120px;
+    height: 300px;
+  }
+

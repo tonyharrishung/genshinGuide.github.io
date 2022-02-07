@@ -1,0 +1,140 @@
+body{
+  background-image: url(images/genshinMM.png);
+  height: 100vh;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.button-container{
+  border-radius: 6px;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 4%;
+  left: 4%;
+  font-weight: bold;
+  transition-duration: 0.5s;
+  /* background-color: bisque; */
+}
+
+.bck-btn{
+  height: 8%; 
+  position: fixed;
+  width: 8%;
+  font-size: 40px;
+  background-color: #00E0FF;
+  border-radius: 15%;
+}
+.bck-btn:hover{
+  background-color: #1d6ff3;
+  transition-duration: 0.25s;
+}
+
+
+        /* Noblesse Artifact*/
+.img-A1{
+
+  /* border-radius: 6px; */
+  width: 200px;
+  height: 200px;  
+  position: absolute;
+  top: 12%;
+  left: 3%;
+}
+
+.box1 h1{
+
+  background-color: antiquewhite;
+  opacity: 0.5;
+  width: 700px;
+  height: 300px;  
+  position: absolute;
+  top: 12%;
+  text-align: center;
+  left: 14%;
+  border-radius: 10px;
+  font-size: 21px;
+}
+
+      /* Bloodstained Artifact*/
+
+.img-A2{
+  width: 200px;
+  height: 200px;  
+  position: absolute;
+  top: 50%;
+  left: 3%;
+}
+
+
+.box2 h1{
+
+  background-color:   antiquewhite;
+  opacity: 0.5;
+  width: 700px;
+  height: 300px;  
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 14%;
+  border-radius: 10px;
+  font-size: 21px;
+}
+
+      /* Crimson Witch Artifact*/
+
+  .img-A3{
+    width: 200px;
+    height: 200px;  
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    }
+
+    .box3 h1{
+
+      background-color: antiquewhite;
+      opacity: 0.5;
+      width: 700px;
+      height: 300px;  
+      position: absolute;
+      text-align: center;
+      top: 12%;
+      left: 60%;
+      border-radius: 10px;
+      font-size: 21px;
+    }
+
+   /* Blizzard strayer Artifact*/
+
+   .img-A4{
+    width: 200px;
+    height: 200px;  
+    position: absolute;
+    top: 50%;
+    left: 50.5%;
+    }
+
+    .box4 h1{
+
+      background-color: antiquewhite;
+      opacity: 0.5;
+      width: 700px;
+      height: 300px;  
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      left: 60%;
+      border-radius: 10px;
+      font-size: 21px;
+    }
+
+    
+
+
+
+    
+
+
